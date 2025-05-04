@@ -1,0 +1,86 @@
+/* Base Styles for Finance Page */
+.finance-page {
+  background-color: #f4f4f4;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.loan-qualification-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  margin-bottom: 20px;
+}
+
+.header h1, .qualified-header h1 {
+  color: #333;
+  font-size: 24px;
+}
+
+.status h2, .qualified-status col {
+  font-size: 20px;
+  color: #dc3545; /* Red for emphasis in Unqualified, green in Qualified */
+  font-weight: bold;
+}
+
+.details, .qualified-details {
+  color: #666;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.actions, .qualified-financials {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+}
+
+/* Qualified Specific Styles */
+.qualified-container {
+  border-left: 5px solid #28a745; /* Green border for qualified */
+}
+
+.qualified-status col {
+  color: #28a745; /* Green for qualified message */
+}
+
+/* Unqualified Specific Styles */
+.unqualified-container {
+  border-left: 5px solid #dc3545; /* Red border for unqualified */
+}
+
+.unqualified-details ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+/* Buttons Style */
+.finance-page button {
+  margin-top: 10px;
+  width: 100%; /* Full width buttons */
+}
+
+#cancelLoanButton {
+  background-color: #6c757d; /* Bootstrap's secondary color */
+  color: white;
+}
+
+#continueLoanButton {
+  background-color: #28a745; /* Bootstrap's success color */
+  color: white;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .finance-page {
+      padding: 15px;
+  }
+
+  .qualified-financials col, .status col {
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin-top: 10px;
+  }
+}

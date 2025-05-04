@@ -1,0 +1,110 @@
+.vd-page {
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  top: 0;
+}
+
+.vd-card {
+  margin-bottom: 20px;
+}
+
+.vd-card-header {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.vd-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.vd-feature-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  color:#367b3f
+}
+
+.vd-purchase-options {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.vd-purchase-btn, .vd-test-drive-btn {
+  padding: 12px 25px;
+  color: #ffffff;
+  background-color: #4CAF50;
+  border: none;
+  cursor: pointer;
+}
+
+.vd-test-drive-btn {
+  background-color: #ffa500;
+}
+
+.vd-purchase-btn:hover {
+  background-color: #367b3f;
+}
+
+.vd-test-drive-btn:hover {
+  background-color: #cc8400;
+}
+
+.vd-details-list, .vd-price-list {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.vd-details-list li, .vd-price-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.vd-card-body {
+  padding: 20px;
+}
+
+.vd-page {
+  background-color: #f0f0f0;
+  padding-top: 20px;
+}
+
+.vd-card {
+  margin-bottom: 20px;
+}
+
+.vd-card-header {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.vd-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.vd-carousel .carousel-item img {
+  max-height: 500px; 
+  max-width: 500px;
+  width: auto;
+  margin: auto; 
+}
+
+.vd-thumbnails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+  overflow-y: auto; 
+}
+
+.vd-thumbnails img {
+  cursor: pointer;
+  max-width: 100%;
+  height: auto;
+}
+
+.vd-thumbnails img:hover {
+  border-color: #007bff; 
+}

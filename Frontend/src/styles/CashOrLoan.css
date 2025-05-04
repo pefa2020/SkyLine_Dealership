@@ -1,0 +1,87 @@
+
+
+
+.payment-Cash-Loan{
+    background-color: #ECF1F5;
+    width: 80%;
+    height: 80%;
+
+    border-color: #482BFF ;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px ;
+    margin-top: 10vh;
+    .payment-cl-button{
+        text-align: center;
+        height: 20vh;
+        margin-top: 15vh;
+    }
+    .payment-cl-content{
+        height: 100%;
+        .payment-cl-holder{
+            height: 50vh;
+            padding-top: 10vh;
+            font-size: medium;
+        }
+        .payment-opt-title{
+            font-size: x-large;
+            text-align: left;
+            padding: 2vh 2vh 2vh 2vh;
+            border-bottom: 2px;
+            border-bottom-color: gray;
+            border-bottom-style: solid;
+            .payment-opt-selector{
+                max-width:50px;
+            }
+
+        }
+        .payment-opt-logo{
+            height: 5vh;
+            font-size: xx-large;
+            .payment-opt-cash{
+                color: green;
+            }
+            .payment-opt-finance{
+                color: darkblue;
+            }
+        }
+        .cash-opt{
+            height: 100%;
+        }
+        .loan-opt{
+            height: 100%;
+        }
+        .payment-opt-text{
+            padding-top: 5vh;
+            font-size: small;
+            text-align: center;
+        }
+    }
+}
+
+.payment-page-exit{
+    color:white;
+    padding-top: 54vh;
+    font-size: 60%;
+    height: 8vh;
+}
+
+.payment-continue-button{
+    padding-top: 10vh;
+    text-align: center;
+}
+
+.finance-page{
+    background-color: #ECF1F5 ;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px ;
+    margin-top: 10vh;
+}
+
+.finance-personal-details{
+    background-color:white ;
+    width: 90%;
+    border-radius: 10px ;
+    margin-top: 2vh;
+}

@@ -1,0 +1,68 @@
+/* ContractForm.css */
+.contract-form {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contract-card {
+    border: 2px solid black;
+}
+
+.contract-card .card-header {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contract-body {
+    padding: 20px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.contract-clause {
+    margin-bottom: 20px;
+}
+
+.contract-details {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+}
+
+.contract-form .btn {
+    font-weight: bold;
+}
+
+#confirmContinueButton {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+}
+
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    .contract-form, .contract-form * {
+        visibility: visible;
+    }
+    .contract-form {
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 0;
+        padding: 15px;
+        font-size: 12px;
+    }
+    .btn {
+        display: none;
+    }
+}

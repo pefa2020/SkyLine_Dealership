@@ -1,0 +1,101 @@
+
+.available{
+    background-color: #F1F1F1;
+    min-height: 100vh;
+
+
+
+        .available-table-header{
+        background-color: #2148C0;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        color:white;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        }
+        .available-tickets{
+            background-color: white;
+            padding-top: 0vh;
+            padding-bottom: 1vh;
+            font-size: small;
+            .ticket-start-container{
+                text-align: center;
+                vertical-align: middle;
+            .ticket-start{
+                padding-top: 0;
+                margin-top: 0;
+                height: 2.20vh;
+                width: 50px;
+                font-size: 1.30vh;
+                border-radius: 1vh;
+            }}
+        }
+        .available-tickets:hover{
+            background-color: lightgrey;
+        }
+    }
+
+.appointment-type{
+    padding-top: 5vh;
+}
+
+.ticket{
+    background-color: white;
+    border-radius: 5px;
+.ticket-top{
+    background-color: #2148C0;
+
+    color:white;
+    border-radius: 5px;
+    font-size: smaller;
+
+}
+.ticket-bottom{
+    background-color: white;
+    padding: 1vh 0vh 1vh 0vh;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    .ticket-button{
+        padding-top: 0;
+        margin-top: 0;
+        height: 2.20vh;
+        width: 50px;
+        font-size: 1.30vh;
+        border-radius: 1vh;
+    }
+    .update-ticket-status{
+        padding-top: 0;
+        margin-top: 0;
+        height: 2.60vh;
+        width: 100px;
+        font-size: 1.30vh;
+        border-radius: 1vh;
+        background-color: lightgray;
+    }
+}
+}
+
+.status-closed{
+    border-radius: 5px;
+    font-size: 0.8rem;
+    background-color: lightgreen;
+    color: darkgreen;
+    padding: 0px 5px 0px 5px;
+}
+
+.status-voided{
+    border-radius: 5px;
+    font-size: 0.8rem;
+    background-color: lightcoral;
+    color: darkred;
+    padding: 0px 5px 0px 5px;
+}
+
+.ticket-msg{
+    border-radius: 5px;
+    font-size: 0.8rem;
+    background-color: lightgray;
+    color: darkslategray;
+    padding: 0px 5px 0px 5px;
+}

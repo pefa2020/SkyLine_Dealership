@@ -1,0 +1,83 @@
+/* Styles for rows */
+.rowService {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(234, 234, 234);
+    height: auto;
+
+}
+
+.subR1 {
+    background-color: rgb(234, 234, 234);
+    height: 10vh;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+}
+
+.subR2 {
+    background-color: rgb(234, 234, 234);
+    height: 170vh;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+}
+
+.subR3 {
+    background-color: rgb(234, 234, 234);
+    height: 30vh;
+
+}
+
+.magicalDiv {
+    max-width: fit-content;
+    margin-inline: auto;
+    box-shadow: 10px 10px 10px rgb(152, 209, 228);
+}
+
+/* Popup CSS*/
+.popupRow {
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    height: 90vh;
+    background-color: white;
+    margin: 4px;
+}
+
+.myHR {
+    width: 65%;
+    border-width: 3px;
+    border-color: #0645ff;
+    margin: 0 auto;
+}
+
+/* List of times style */
+.myUL {
+    -moz-column-count: 6;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 6;
+    -webkit-column-gap: 20px;
+    column-count: 6;
+    column-gap: 20px;
+    list-style-type: none;
+      
+}
+
+/* Time buttons */
+.timeButton {
+    width: 90%;
+    height: 4.5vh;
+}
+
+.columnDisplay {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .columnDisplay > div {
+    flex: 1 0 50%;
+    margin-bottom: 10px;
+  }

@@ -1,0 +1,27 @@
+.manager-loan-sign-page {
+    padding: 20px;
+}
+
+.manager-loan-sign-page .card {
+    margin-bottom: 20px;
+}
+
+/* Specific styles scoped to ContractSearch component */
+.contract-search-container .contract-search-card {
+    background-color: #f8f9fa;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.contract-search-container .contract-search-table {
+    margin-top: 20px;
+}
+
+.contract-search-container .contract-search-table thead th {
+    background-color: #007bff;
+    color: white;
+}
+
+.contract-search-container .contract-search-group button {
+    width: 100%;
+}

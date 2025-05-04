@@ -1,0 +1,24 @@
+.garage-cars{
+    margin-top: 3vh;
+    gap:20px;
+}
+.garage-car-card{
+    width:180px;
+    height:270px;
+    padding: 5px;
+}
+.garage-car-col{
+    justify-content: center;
+}
+.garage-car-holder{
+    gap: 20px;
+}
+.garage-vehicle-image{
+    height: 169px;
+    width: 169px;
+
+}
+.garage-card-body{
+    font-size: small;
+    
+}

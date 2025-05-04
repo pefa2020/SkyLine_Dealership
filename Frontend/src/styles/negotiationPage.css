@@ -1,0 +1,67 @@
+.negotiationContainer {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px;
+}
+
+.negotiationHeader {
+    color: #0056b3;
+    margin-bottom: 20px;
+}
+
+.managerSelection {
+    margin-bottom: 20px;
+}
+
+.managerButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.managerButton:hover {
+    background-color: #0056b3;
+}
+
+.messageList {
+    margin-bottom: 20px;
+}
+
+.messageItem {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.textInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.sendButton, .priceButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.sendButton:hover, .priceButton:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,49 @@
+.filter-bar {
+  background-color: #f0f8ff; /* Very light blue background */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds subtle shadow for depth */
+  border-radius: 8px; /* Soften edges */
+}
+
+.filter-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.filter-select, .filter-input, .search-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #b0c4de; /* Light steel blue border */
+  border-radius: 8px; /* Consistent rounded corners */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for focus and hover */
+}
+
+.filter-input,
+.filter-select:focus,
+.filter-input:focus {
+  border-color: #4682b4; /* Steel blue focus border */
+  box-shadow: 0 0 8px rgba(70, 130, 180, 0.5); /* Matching subtle glow */
+}
+
+.search-button {
+  background-color: #4682B4; /* Steel blue background */
+  color: white;
+  font-weight: bold; /* Makes the text a bit bolder */
+  cursor: pointer;
+  border: none; /* No border for the button */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth background and press effect */
+}
+
+.search-button:hover,
+.search-button:focus {
+  background-color: #4169e1; /* Royal blue on hover/focus */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.search-button:active {
+  transform: translateY(1px); /* Slight press-down effect */
+}

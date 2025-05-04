@@ -1,0 +1,28 @@
+.appointment-page{
+    background-color: #F1F1F1;
+    min-height: 93vh;
+    .appointment-curr{
+    padding-top: 5vh;
+    font-size: x-small;
+
+        .appointment-curr-label{
+            font-size: large;
+        }
+        .appointment-curr-header{
+        background-color: #2148C0;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        color:white;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        }
+        .appointment-curr-info{
+            background-color: white;
+            padding-top: 1vh;
+        }
+    }
+}
+
+.appointment-type{
+    padding-top: 5vh;
+}

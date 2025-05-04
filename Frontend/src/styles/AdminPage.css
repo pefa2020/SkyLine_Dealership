@@ -1,0 +1,72 @@
+/* AdminPage.css */
+body {
+    background-color: #f4f7fa; /* Light greyish background for a subtle touch */
+    font-family: Arial, sans-serif; /* Sets a clean, professional font */
+}
+
+.admin-navbar {
+    background-color: #003366; /* Skyline's theme dark blue */
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.admin-holder {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
+
+h1 {
+    color: #003366; /* Skyline's theme dark blue */
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 2px solid #003366; /* Dark blue underlining for section titles */
+    color: #003366;
+    padding-bottom: 10px;
+}
+
+.form-group label {
+    color: #333; /* Dark grey for text for readability */
+    font-weight: bold; /* Makes labels stand out */
+}
+
+.form-control {
+    border-radius: 5px; /* Rounded borders for input fields */
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.button-primary {
+    background-color: #0055b3; /* Brighter blue for buttons */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-primary:hover {
+    background-color: #003366; /* Darker blue on hover */
+}
+
+.alert-danger {
+    color: #721c24; /* Dark red for errors to catch attention */
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.select-job {
+    border-color: #0055b3; /* Brighter blue for select dropdown */
+}

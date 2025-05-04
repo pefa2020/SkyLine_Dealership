@@ -1,0 +1,48 @@
+.crowOne {
+    margin-top: 2rem;
+}
+
+.crowOneColOne {
+    text-align: center;
+}
+
+.myTable th, .myTable td {
+    text-align: center;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.shadow {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.rounded {
+    border-radius: .25rem!important;
+}
+
+.modal-title {
+    color: #495057;
+}
+
+.modal-body p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.modal-footer .btn {
+    font-size: .875rem;
+}

@@ -1,0 +1,91 @@
+/* General Styles for Navbar */
+.navbar.navbar {
+  background-color: #003366; /* A deeper blue for a more professional look */
+  color: white;
+  border-bottom: 2px solid #004080; /* Slight contrast for edge definition */
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: white !important; /* Ensures all text is white */
+}
+
+.navbar-toggler {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+/* Ensuring the menu and logo have appropriate spacing and are visually centered */
+.navbar-brand {
+  margin-right: 1rem; /* Provides a bit of spacing between logo and menu icon */
+}
+
+/* Styling for Navigation Links */
+.navbar-nav .nav-link {
+  font-size: 1.1rem; /* Slightly larger for better readability */
+  margin-right: 1rem; /* Space between items */
+}
+
+/* Hover and active styles for nav items */
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link.active {
+  color: #99ccff !important; /* A lighter blue for hover and active states */
+  text-decoration: none;
+}
+
+/* Offcanvas Styles */
+.offcanvas-header {
+  border-bottom: 1px solid #cccccc; /* Adds a light line for definition */
+}
+
+.offcanvas-title {
+  color: #003366; /* Consistent with navbar color, but darker for contrast against light background */
+  font-size: 1.5rem;
+}
+
+.offcanvas-body {
+  background-color: #f8f9fa; /* Light background for the sidebar */
+}
+
+/* Offcanvas Navigation Styles */
+.nav-menu-items {
+  padding: 0;
+  margin-top: 15px; /* Space at the top of the menu */
+}
+
+.nav-menu-items .row {
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-menu-items .row:hover {
+  background-color: #e6f0ff; /* Very light blue for hover */
+  cursor: pointer;
+}
+
+.nav-icons, .sidenavButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-icons {
+  font-size: 1.4rem;
+  color: #003366; /* Dark blue to stand out against light background */
+}
+
+.sidenavButtons {
+  font-size: 1rem;
+  color: #666666; /* Dark gray for text */
+  text-align: left;
+  padding-left: 10px; /* Aligns text nicely with icons */
+}
+
+/* Buttons specific to the navbar */
+.button-div, .navbar-content-button {
+  margin-right: 15px; /* Right margin for alignment */
+}
+
+/* Exit button specific styling if needed */
+.exit-button {
+  background-color: #ff6666; /* A reddish tone for exit or danger-related buttons */
+  color: white;
+}

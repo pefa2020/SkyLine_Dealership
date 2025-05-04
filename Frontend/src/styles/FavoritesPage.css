@@ -1,0 +1,43 @@
+/* FavoritesPage.css */
+.favorites-container {
+    max-width: 1200px; /* Limits the width for larger screens */
+    margin: 20px auto; /* Centers the container */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: adds shadow for better focus */
+    background: #fff; /* Background color */
+  }
+  
+  .favorites-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Creates a grid with 5 columns */
+    grid-gap: 10px; /* Space between cards */
+    padding: 20px;
+  }
+  
+  .vehicle-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc; /* Border for each card */
+    border-radius: 8px; /* Rounded corners for the card */
+  }
+  
+  @media (max-width: 1200px) {
+    .favorites-list {
+      grid-template-columns: repeat(3, 1fr); /* Adjust grid to 3 columns on medium screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .favorites-list {
+      grid-template-columns: repeat(2, 1fr); /* Adjust grid to 2 columns on small screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .favorites-list {
+      grid-template-columns: 1fr; /* Single column on extra small screens */
+    }
+  }
+  

@@ -1,0 +1,76 @@
+.payment-sidenav{
+    background-color: white;
+    height: 100vh;
+    max-width: 25%;
+    min-width: 250px;
+    padding:none;
+    box-shadow: 2px;
+    .payment-sidenav-sub{
+        font-size: small;
+        color:darkgray;
+        padding-bottom: 3vh;
+    }
+    .payment-sidenav-header{
+        font-size: large;
+    }
+    .payment-sidenav-opts{
+        border-top-color: darkgray;
+        border-top-style: solid;
+        border-top-width: 2px;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        font-size: medium;
+        .prog-empty{
+            padding-right: 3px;
+            width:15%;
+            
+        }
+        .prog-full{
+            padding-right: 3px;
+            width:15%;
+            color:darkgreen;
+        }
+    }
+}
+
+.payment-page{
+    background-color: #E4E4E4;
+}
+
+.payment-details{
+    background-color: #ECF1F5;
+    width: 90%;
+    height: 80vh;
+
+    border-color: #482BFF ;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px ;
+    margin-top: 10vh;
+
+    .payment-details-content{
+        height: 100%;
+        .payment-details-content-l{
+            border-right-color: #BCC2F7 ;
+            border-right-style: solid;
+            border-right-width: 2px;
+            font-size: medium;
+        }
+        .payment-details-content-r{
+                        margin-top: 15vh;
+            font-size: medium;
+        }
+    }
+}
+
+.payment-page-exit{
+    color:white;
+    padding-top: 54vh;
+    font-size: 60%;
+    height: 8vh;
+}
+
+.payment-continue-button{
+    padding-top: 10vh;
+    text-align: center;
+}
